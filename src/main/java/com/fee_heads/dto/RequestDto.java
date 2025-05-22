@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 
 public class RequestDto {
 	
+	private int  head_code;
     private String head_name;
     private Date created_on;
     private int created_by;

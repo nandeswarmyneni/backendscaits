@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin("http://localhost:3000")
 @RestController
 @RequestMapping("/api/fee-heads")
 
@@ -18,7 +18,7 @@ public class FeeHeadsController {
 	 @Autowired
     private final FeeHeadsService feeHeadsService;
 
-   
+  
     public FeeHeadsController(FeeHeadsService feeHeadsService) {
         this.feeHeadsService = feeHeadsService;
     }

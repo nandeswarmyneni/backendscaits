@@ -11,6 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 public class ResponseDto {
+	
+	private int  head_code;
 	private int tran_head_id;
     private String head_name;
     private Date created_on;
